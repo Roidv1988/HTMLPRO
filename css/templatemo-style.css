@@ -12,6 +12,13 @@ body {
 	overflow-x: hidden;
 }
 
+.contactstyle {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	overflow-x: hidden;
+}
+
 a, button { transition: all 0.3s ease; }
 a:hover,
 a:focus {
@@ -159,7 +166,11 @@ textarea:-ms-input-placeholder {
 @media (min-width: 768px) {
 	.tm-about-img-container { margin-top: 0; }
 }
-
+.tm-main-nav {
+		display: flex;
+		justify-content: center;
+		margin-left: 50px
+	}
 @media (min-width: 992px) {
 	.tm-main-nav {
 		display: flex;
